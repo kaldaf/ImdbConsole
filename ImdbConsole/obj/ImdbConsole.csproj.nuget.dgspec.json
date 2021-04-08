@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\theka\\source\\repos\\ImdbConsole\\ImdbConsole\\ImdbConsole.csproj": {}
+    "C:\\Users\\theka\\Documents\\projects\\school\\ImdbConsole\\ImdbConsole\\ImdbConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\theka\\source\\repos\\ImdbConsole\\ImdbConsole\\ImdbConsole.csproj": {
+    "C:\\Users\\theka\\Documents\\projects\\school\\ImdbConsole\\ImdbConsole\\ImdbConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\theka\\source\\repos\\ImdbConsole\\ImdbConsole\\ImdbConsole.csproj",
+        "projectUniqueName": "C:\\Users\\theka\\Documents\\projects\\school\\ImdbConsole\\ImdbConsole\\ImdbConsole.csproj",
         "projectName": "ImdbConsole",
-        "projectPath": "C:\\Users\\theka\\source\\repos\\ImdbConsole\\ImdbConsole\\ImdbConsole.csproj",
+        "projectPath": "C:\\Users\\theka\\Documents\\projects\\school\\ImdbConsole\\ImdbConsole\\ImdbConsole.csproj",
         "packagesPath": "C:\\Users\\theka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\theka\\source\\repos\\ImdbConsole\\ImdbConsole\\obj\\",
+        "outputPath": "C:\\Users\\theka\\Documents\\projects\\school\\ImdbConsole\\ImdbConsole\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\theka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
@@ -47,13 +46,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.5, )"
             }
           },
           "imports": [
@@ -73,7 +72,15 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.2, 3.0.2]"
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -81,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

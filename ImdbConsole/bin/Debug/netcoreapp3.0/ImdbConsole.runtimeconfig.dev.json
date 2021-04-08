@@ -2,8 +2,7 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\theka\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\theka\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Users\\theka\\.nuget\\packages"
     ]
   }
 }

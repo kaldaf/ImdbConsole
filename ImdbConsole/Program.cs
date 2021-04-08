@@ -1108,8 +1108,9 @@ public class ImdbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var nameDataSource = Environment.MachineName;
-        optionsBuilder.UseSqlServer($"Data source={nameDataSource};Integrated security=True;Initial Catalog=ImdbHomework");
+        optionsBuilder.UseSqlServer($"Data source=(localdb)\\MSSQLLocalDB;Integrated security=True;Initial Catalog=ImdbHomework");
+        //var nameDataSource = Environment.MachineName;
+        //optionsBuilder.UseSqlServer($"Data source={nameDataSource};Integrated security=True;Initial Catalog=ImdbHomework");
         //Environment.MachineName = DESKTOP-P4UE1O5
     }
 
